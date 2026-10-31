@@ -1,11 +1,15 @@
 # Karandeep Singh – Insurance Advisor website
 
-Static website (HTML/CSS/JS) for Karandeep Singh, Insurance Advisor with Solutions Insurance Group, Welland ON.
+Upload everything in this folder to your hosting's public_html (PHP hosting, e.g. Hostinger).
 
-Pages: index.html, about.html, products.html, car-insurance.html, home-insurance.html, contact.html
+- Pages: index, about, products, car-insurance, home-insurance, contact, privacy
+- Styles: assets/style.css · Scripts & settings: assets/main.js
+- Quote form → emails karandeepsinghinsurance@gmail.com via FormSubmit.co
+  (first submission sends an activation email – click "Activate Form" once)
+- Reviews → review.php saves them in data/reviews.json and the home page shows them automatically
+  · Hide a review:   in data/reviews.json change "show": true → "show": false
+  · Delete a review: remove its { ... } block
+  · data/ is blocked from direct browser access (data/.htaccess)
+- Images: see images/README.txt
 
-- Styles: assets/style.css
-- Scripts & client reviews list: assets/main.js
-- Images: images/ (see images/README.txt)
-
-Hosted with GitHub Pages.
+Designed by InnovadorX – https://innovadorx.com/
